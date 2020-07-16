@@ -38,10 +38,11 @@ public class Main extends JFrame {
         panel.addMouseListener(new MouseAdapter() {
             @Override
             public void mousePressed(MouseEvent e) {
-                panel.setBackground(Color.blue);
-                if(aktywny!=null);
+               
+                if(aktywny!=null)
+                {
                 panel.setBackground((Color) aktywny.getAction().getValue("kolor"));
-
+                }
             }
         });
     }
